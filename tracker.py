@@ -40,6 +40,21 @@ RSS_SOURCES = [
     {"name": "UNICEF", "url": "https://www.unicef.org/rss.xml", "type": "report"},
     {"name": "International Crisis Group", "url": "https://www.crisisgroup.org/rss", "type": "report"},
     {"name": "Human Rights Watch", "url": "https://www.hrw.org/rss/news", "type": "report"},
+    {"name": "BBC World", "url": "http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml", "type": "news"},
+    {"name": "DW Top Stories", "url": "https://rss.dw.com/rdf/rss-en-top", "type": "news"},
+    {"name": "DW Full English Feed", "url": "https://rss.dw.com/rdf/rss-en-all", "type": "news"},
+]
+
+GOOGLE_NEWS_SOURCES = [
+    {"name": "Reuters", "domain": "reuters.com", "type": "news"},
+    {"name": "CNN", "domain": "cnn.com", "type": "news"},
+    {"name": "BBC", "domain": "bbc.com", "type": "news"},
+    {"name": "Al Jazeera", "domain": "aljazeera.com", "type": "news"},
+    {"name": "DW", "domain": "dw.com", "type": "news"},
+    {"name": "TRT World", "domain": "trtworld.com", "type": "news"},
+    {"name": "AP", "domain": "apnews.com", "type": "news"},
+    {"name": "The Guardian", "domain": "theguardian.com", "type": "news"},
+{"name": "Human Rights Watch", "url": "https://www.hrw.org/rss/news", "type": "report"},
 ]
 
 HTML_SEARCH_SOURCES = [
